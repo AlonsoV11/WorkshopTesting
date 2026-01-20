@@ -1,4 +1,4 @@
-package es.fplumara.dam1.workshoptesting.core.calculator;
+package es.fplumara.dam1.workshoptesting.core.calculator.calculator;
 
 public class Calculator {
 
@@ -11,7 +11,9 @@ public class Calculator {
     }
 
     public int divide(int a, int b) {
-        if (b == 0) return 0;
+        if (b == 0) {
+            throw new IllegalArgumentException("Division por cero no permitida");
+        }
         return a / b;
     }
 }

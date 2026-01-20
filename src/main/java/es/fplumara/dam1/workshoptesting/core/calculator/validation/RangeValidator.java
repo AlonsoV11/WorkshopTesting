@@ -1,4 +1,4 @@
-package es.fplumara.dam1.workshoptesting.core.validation;
+package es.fplumara.dam1.workshoptesting.core.calculator.validation;
 
 public class RangeValidator {
 
