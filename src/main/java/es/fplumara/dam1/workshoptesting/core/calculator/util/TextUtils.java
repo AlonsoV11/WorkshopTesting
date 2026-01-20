@@ -1,4 +1,4 @@
-package es.fplumara.dam1.workshoptesting.core.util;
+package es.fplumara.dam1.workshoptesting.core.calculator.util;
 
 public class TextUtils {
 
